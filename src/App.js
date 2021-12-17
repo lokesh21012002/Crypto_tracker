@@ -28,7 +28,7 @@ function App() {
            
       <div className="coin-search">
         
-        <h1 className="coin-text">Search a Currency</h1>
+        <h1 className="coin-text">Search a <span className="green">Currency</span></h1>
         <form>
           <input type="text" placeholder="Search" required className="coin-input" onChange={handleChange}/>
           
