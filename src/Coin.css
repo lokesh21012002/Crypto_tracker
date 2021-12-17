@@ -35,7 +35,13 @@
 .coin-symbol {
     text-transform: uppercase;
 }
+.coin-symbol-2{
+    margin-left:20px;
+    font-size: 16px;
+    width: 150px;
+    /* text-transform: lowercase; */
 
+}
 .coin-data {
     display: flex;
     text-align: right;
@@ -44,7 +50,12 @@
 }
 
 .coin-price {
-    width: 110px;
+    width: 120px;
+}
+.coin-price-2{
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100px;
 }
 
 .coin-volume {

@@ -1,6 +1,7 @@
 import react,{useState,useEffect} from 'react';
 import axios from 'axios'
 import Coin from "./Coin"
+import Head from "./Head"
 
 
 import './App.css';
@@ -27,13 +28,14 @@ function App() {
            
       <div className="coin-search">
         
-        <h1 className="coin-text">Search a currency</h1>
+        <h1 className="coin-text">Search a Currency</h1>
         <form>
           <input type="text" placeholder="Search" required className="coin-input" onChange={handleChange}/>
           
         
         </form>
-     </div>
+      </div>
+      <Head/>
       {
         filteredCoins.map(coin => {
           return (
